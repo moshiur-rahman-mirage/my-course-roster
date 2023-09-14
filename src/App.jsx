@@ -13,7 +13,7 @@ function App() {
     
       <h1 className='text-center text-4xl font-bold py-5'>Course Regestration</h1>
       
-      <div className='flex items-center p-10'>
+      <div className='flex p-10'>
       <Cards/>
       <Summary/>
       </div>
