@@ -1,12 +1,21 @@
 
 import './App.css'
+import Summary from './assets/components/Summary/Summary';
+import Cards from './assets/components/cards/Cards';
 
 function App() {
+
+
  
 
   return (
-    <>
-      <h1>Hello</h1>
+    <>  
+    
+      <h1 className='text-center text-4xl font-bold py-5'>Course Regestration</h1>
+      <div className='grid'>
+      <Cards/>
+      <Summary/>
+      </div>
     </>
   )
 }
