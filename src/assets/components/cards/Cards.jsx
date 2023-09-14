@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Card from '../card/Card';
 
-export default function Cards() {
+export default function Cards({handleButtonClicked}) {
 
     const [course, setCourse] = useState([]);
     useEffect(() => {
@@ -18,7 +18,9 @@ export default function Cards() {
                     return (
                         <Card
                             key={course.id}
-                            course={course} />
+                            course={course}
+                            handleButtonClicked={handleButtonClicked}
+                            />
                     )
                 })
                 }
