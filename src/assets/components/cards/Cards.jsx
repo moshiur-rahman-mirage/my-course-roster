@@ -12,6 +12,7 @@ export default function Cards() {
 
     return (
         <>
+            <div className='w-2/3'>
             <div className='grid grid-cols-3 gap-2'>
                 {course.map((course) => {
                     return (
@@ -21,6 +22,7 @@ export default function Cards() {
                     )
                 })
                 }
+            </div>
             </div>
         </>
 

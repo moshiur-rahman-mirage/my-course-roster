@@ -6,7 +6,7 @@
         "description": "Learn the fundamentals of Python programming language.",
         "hour": 30,
         "price": 99.99,
-        "image": "https://ibb.co/2vwLvDg"
+        "image": "../public/Asset/1.png"
       },
       {
         "id": 2,
@@ -14,7 +14,7 @@
         "description": "Master the art of building interactive web applications with JavaScript.",
         "hour": 40,
         "price": 129.99,
-        "image": "https://ibb.co/3crXBCV"
+        "image": "../public/Asset/2.png"
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "description": "Dive into data analysis and visualization using the R programming language.",
         "hour": 45,
         "price": 149.99,
-        "image": "https://ibb.co/59G5Bwy"
+        "image": "../public/Asset/3.png"
       },
       {
         "id": 4,
@@ -30,7 +30,7 @@
         "description": "Build modern web applications using MongoDB, Express, React, and Node.js.",
         "hour": 60,
         "price": 199.99,
-        "image": "https://ibb.co/bXdxCgh"
+        "image": "../public/Asset/4.png"
       },
       {
         "id": 5,
@@ -38,7 +38,7 @@
         "description": "Start your journey into object-oriented programming with Java.",
         "hour": 35,
         "price": 109.99,
-        "image": "https://ibb.co/L8svs51"
+        "image": "../public/Asset/5.png"
       },
       {
         "id": 6,
@@ -46,7 +46,7 @@
         "description": "Create mobile apps for Apple devices using Swift.",
         "hour": 50,
         "price": 169.99,
-        "image": "https://ibb.co/Zd2ZN1M"
+        "image": "../public/Asset/6.png"
       },
       {
         "id": 7,
@@ -54,7 +54,7 @@
         "description": "Explore the basics of machine learning and predictive modeling.",
         "hour": 55,
         "price": 179.99,
-        "image": "https://ibb.co/xGNX9tg"
+        "image": "../public/Asset/7.png"
       },
       {
         "id": 8,
@@ -62,7 +62,7 @@
         "description": "Learn to design and build beautiful websites with HTML and CSS.",
         "hour": 35,
         "price": 119.99,
-        "image": "https://ibb.co/rQJk2x7"
+        "image": "../public/Asset/8.png"
       },
       {
         "id": 9,
@@ -70,7 +70,7 @@
         "description": "Take your C++ skills to the next level with advanced topics and techniques.",
         "hour": 50,
         "price": 149.99,
-        "image": "https://ibb.co/fF81J90"
+        "image": "../public/Asset/9.png"
       }
     ]
   }

@@ -1,6 +1,6 @@
 
 export default function Summary() {
   return (
-    <div>Summary</div>
+    <div className="w-1/3">Summary</div>
   )
 }
