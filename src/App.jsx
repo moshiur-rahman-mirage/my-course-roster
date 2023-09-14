@@ -29,7 +29,7 @@ function App() {
       
       <div className='flex p-10'>
       <Cards handleButtonClicked={handleButtonClicked}/>
-      <Summary/>
+      <Summary allname={allname} allhour={allhour} allprice={allprice}/>
       </div>
     </>
   )
