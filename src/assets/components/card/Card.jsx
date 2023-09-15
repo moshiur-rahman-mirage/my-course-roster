@@ -1,17 +1,26 @@
 
 import { useState } from 'react';
+import {toast,ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { FaBookOpen, FaDollarSign } from 'react-icons/fa6'
 export default function Card({ course,handleButtonClicked,allhour,allname}) {
     const { image, id, name, description, price, hour } = course
     
-    // const nameList=[]
+    function showToast() {
+        toast.error('Credit Hour can not be more than 20!', {
+          position: 'top-center',
+          autoClose: 3000,
+          hideProgressBar: true,
+          closeOnClick: true,
+        });
+      }
     
     const passWithParam=()=>{
 
         if (hour+allhour<=20){
         handleButtonClicked(id,name,price,hour);
         }else{
-            alert('Crossed the limit!')
+            showToast();
         }
     }
     
@@ -32,6 +41,7 @@ export default function Card({ course,handleButtonClicked,allhour,allname}) {
                         </div>
                     </div>
                     <button onClick={passWithParam} className='w-full bg-blue-500 text-white rounded-md h-9'>Select</button>
+                    <ToastContainer/>
                 </div>
             </div>
         </>
