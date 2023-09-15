@@ -4,7 +4,7 @@
         "id": 1,
         "name": "Introduction to Python",
         "description": "Learn the fundamentals of Python programming language.",
-        "hour": 30,
+        "hour": 3,
         "price": 99.99,
         "image": "../public/Asset/1.png"
       },
@@ -12,7 +12,7 @@
         "id": 2,
         "name": "Web Development with JavaScript",
         "description": "Master the art of building interactive web applications with JavaScript.",
-        "hour": 40,
+        "hour": 4,
         "price": 129.99,
         "image": "../public/Asset/2.png"
       },
@@ -20,7 +20,7 @@
         "id": 3,
         "name": "Data Science with R",
         "description": "Dive into data analysis and visualization using the R programming language.",
-        "hour": 45,
+        "hour": 4,
         "price": 149.99,
         "image": "../public/Asset/3.png"
       },
@@ -28,7 +28,7 @@
         "id": 4,
         "name": "Full-Stack Web Development with MERN Stack",
         "description": "Build modern web applications using MongoDB, Express, React, and Node.js.",
-        "hour": 60,
+        "hour": 3,
         "price": 199.99,
         "image": "../public/Asset/4.png"
       },
@@ -36,7 +36,7 @@
         "id": 5,
         "name": "Java Programming for Beginners",
         "description": "Start your journey into object-oriented programming with Java.",
-        "hour": 35,
+        "hour": 1,
         "price": 109.99,
         "image": "../public/Asset/5.png"
       },
@@ -44,7 +44,7 @@
         "id": 6,
         "name": "iOS App Development with Swift",
         "description": "Create mobile apps for Apple devices using Swift.",
-        "hour": 50,
+        "hour": 2,
         "price": 169.99,
         "image": "../public/Asset/6.png"
       },
@@ -52,7 +52,7 @@
         "id": 7,
         "name": "Machine Learning Fundamentals",
         "description": "Explore the basics of machine learning and predictive modeling.",
-        "hour": 55,
+        "hour": 5,
         "price": 179.99,
         "image": "../public/Asset/7.png"
       },
@@ -60,7 +60,7 @@
         "id": 8,
         "name": "Front-End Web Development with HTML and CSS",
         "description": "Learn to design and build beautiful websites with HTML and CSS.",
-        "hour": 35,
+        "hour": 10,
         "price": 119.99,
         "image": "../public/Asset/8.png"
       },
@@ -68,7 +68,7 @@
         "id": 9,
         "name": "Advanced C++ Programming",
         "description": "Take your C++ skills to the next level with advanced topics and techniques.",
-        "hour": 50,
+        "hour": 15,
         "price": 149.99,
         "image": "../public/Asset/9.png"
       }

@@ -1,7 +1,24 @@
 
+import { useState } from 'react';
 import { FaDollarSign } from 'react-icons/fa6'
-export default function Card({ course,handleButtonClicked }) {
+export default function Card({ course,handleButtonClicked,allhour,allname}) {
     const { image, id, name, description, price, hour } = course
+    
+    // const nameList=[]
+    
+    const passWithParam=()=>{
+        console.log(name)
+        let namelist=[]
+        namelist=[...namelist,name]
+        console.log(namelist)
+
+        if (hour+allhour<=20){
+        handleButtonClicked(id,name,price,hour);
+        }else{
+            alert('Crossed the limit!')
+        }
+    }
+    
     return (
         <>
             <div className="bg-white rounded-lg p-5">
@@ -17,7 +34,7 @@ export default function Card({ course,handleButtonClicked }) {
                             <p>Credit :</p>{hour} hr
                         </div>
                     </div>
-                    <button onClick={()=>handleButtonClicked(id,name,price,hour)} className='w-full bg-blue-500 text-white rounded-md h-9'>Select</button>
+                    <button onClick={passWithParam} className='w-full bg-blue-500 text-white rounded-md h-9'>Select</button>
                 </div>
             </div>
         </>
