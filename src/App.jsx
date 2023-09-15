@@ -10,6 +10,7 @@ function App() {
   const [allname,setName]=useState([])
   const [allprice,setPrice]=useState(0)
   const [allhour,setHour]=useState(0)
+  const [totCount,setCount]=useState(0)
   const handleButtonClicked=(id,name,price,hour)=>{
     const newName=[...allname,name]
     setName(newName);
@@ -17,10 +18,12 @@ function App() {
     setPrice(newPrice)
     const newHour=allhour+hour;
     setHour(newHour)
+    const newCount=totCount+1;
+    setCount(newCount)
 
   }
 
-  console.log(allname,allhour,allprice)
+  // console.log(allname,allhour,allprice,totCount)
 
   return (
     <>  
@@ -29,7 +32,7 @@ function App() {
       
       <div className='flex p-10'>
       <Cards handleButtonClicked={handleButtonClicked}/>
-      <Summary allname={allname} allhour={allhour} allprice={allprice}/>
+      <Summary allname={allname} allhour={allhour} allprice={allprice} totCount={totCount}/>
       </div>
     </>
   )
