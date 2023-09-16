@@ -9,3 +9,7 @@ Project Features :
 How i managed state:
     1. Used useState function to manage state.
     2. Passed value from common parent to multiple child. eg: from app.jsx to side list. and course component.
+
+
+
+    Live Link : adjoining-plough.surge.sh
