@@ -27,9 +27,9 @@ export default function Summary(data) {
                 })
             }
         <hr/>
-        <h1 className="py-2 font-semibold opacity-80">Total Credit Hour {data.allhour}</h1>
+        <h1 className="py-2 font-semibold opacity-80">Total Credit Hour : {data.allhour}</h1>
         <hr/>
-        <h4 className="py-2 font-semibold opacity-80">Total Price :{data.allprice} USD</h4>
+        <h4 className="py-2 font-semibold opacity-80">Total Price : {data.allprice} USD</h4>
     </div>
   )
 }
