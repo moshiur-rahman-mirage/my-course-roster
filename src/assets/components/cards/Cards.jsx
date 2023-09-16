@@ -5,7 +5,7 @@ export default function Cards({handleButtonClicked,allhour,allname}) {
 
     const [course, setCourse] = useState([]);
     useEffect(() => {
-        fetch("../public/Course.json")
+        fetch("Course.json")
             .then(res => res.json())
             .then(data => setCourse(data.courses))
     }, []);
